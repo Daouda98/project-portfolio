@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Daouda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  const toggleBtn = document.getElementById("toggle-theme");
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Mode clair" : "🌓 Mode sombre";
+  });
+</script>
+
+<body>
+  <header>
+    <h1>Daouda Mbengue</h1>
+    <p>Étudiant développeur web</p>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="toggle-theme">🌓 Mode sombre</button>
+
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis passionné par le développement web. J'apprends à créer des sites modernes, responsives et efficaces en HTML, CSS, JavaScript et plus.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Mes projets</h2>
+    <div class="project">
+      <h3>Mini site vitrine</h3>
+      <p>Un site vitrine responsive pour une entreprise fictive. Techno : HTML/CSS/JS.</p>
+      <a href="#">Voir le projet</a>
+    </div>
+    <div class="project">
+      <h3>Application To-do List</h3>
+      <p>Gestion de tâches avec stockage local. Techno : JavaScript.</p>
+      <a href="#">Voir le projet</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Tu peux me contacter à : <a href="mailto:daoudambengue98@gmail.com">daoudambengue98@gmail.com</a></p>
+    <a href="CV_Daouda.pdf" class="cv-button" download>Télécharger mon CV</a>
+  </section>
+
+  <footer>
+    <footer>
+  <p>© 2025 - Daouda Mbengue</p>
+  <div class="socials">
+    <a href="https://github.com/ton-github" target="_blank">🐙 GitHub</a>
+    <a href="https://linkedin.com/in/ton-linkedin" target="_blank">💼 LinkedIn</a>
+  </div>
+</footer>
+
+  </footer>
+</body>
+</html>

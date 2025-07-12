@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 5px solid #3498db;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.dark-mode {
+  background: #121212;
+  color: #eee;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background: #1e1e1e;
+}
+
+.dark-mode .project {
+  background: #1a1a1a;
+  border-left-color: #9b59b6;
+}
+
+.dark-mode a {
+  color: #74b9ff;
+}
+.socials a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.project {
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+nav a:hover,
+.cv-button:hover,
+.socials a:hover {
+  color: #3498db;
+  transition: color 0.3s ease;
+}
