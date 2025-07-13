@@ -145,3 +145,14 @@ nav a:hover,
   margin: 0 auto 1rem auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  margin: 0 auto 1rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
