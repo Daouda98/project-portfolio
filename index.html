@@ -13,6 +13,15 @@
     toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "☀️ Mode clair" : "🌓 Mode sombre";
   });
 </script>
+<section id="contact">
+  <h2>Contacte-moi</h2>
+  <form id="contact-form" action="https://formspree.io/f/ton-code-formspree" method="POST">
+    <input type="text" name="name" placeholder="Ton nom" required>
+    <input type="email" name="email" placeholder="Ton email" required>
+    <textarea name="message" placeholder="Ton message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
 
 <body>
   <header>
