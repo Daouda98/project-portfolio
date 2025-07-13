@@ -33,22 +33,7 @@
 </section>
 
 </section>
-<script>
-  function revealOnScroll() {
-    const reveals = document.querySelectorAll('.reveal');
-    const windowHeight = window.innerHeight;
 
-    reveals.forEach((el) => {
-      const top = el.getBoundingClientRect().top;
-      if (top < windowHeight - 100) {
-        el.classList.add('visible');
-      }
-    });
-  }
-
-  window.addEventListener('scroll', revealOnScroll);
-  window.addEventListener('load', revealOnScroll);
-</script>
 
 <body>
   <header>
@@ -68,13 +53,6 @@
     <p>Je suis passionné par le développement web. J'apprends à créer des sites modernes, responsives et efficaces en HTML, CSS, JavaScript et plus.</p>
     <section class="reveal">
   <h2>À propos de moi</h2>
-  ...
-</section>
-
-<section class="reveal">
-  <h2>Mes projets</h2>
-  ...
-</section>
 
   </section>
 
@@ -90,31 +68,12 @@
       <p>Gestion de tâches avec stockage local. Techno : JavaScript.</p>
       <a href="#">Voir le projet</a>
     </div>
-    <section class="reveal">
-  <h2>À propos de moi</h2>
-  ...
-</section>
-
-<section class="reveal">
-  <h2>Mes projets</h2>
-  ...
-</section>
-
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>Tu peux me contacter à : <a href="mailto:daoudambengue98@gmail.com">daoudambengue98@gmail.com</a></p>
     <a href="CV_Daouda.pdf" class="cv-button" download>Télécharger mon CV</a>
-    <section class="reveal">
-  <h2>À propos de moi</h2>
-  ...
-</section>
-
-<section class="reveal">
-  <h2>Mes projets</h2>
-  ...
-</section>
 
   </section>
 
